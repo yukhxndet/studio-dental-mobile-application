@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "studio-dental-project",
+    "slug": "studio-dental-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile" : "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.studiodentalproject",
+      "windowSoftInputMode": "adjustResize" 
+
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-build-properties"      
+      ],
+    "extra": {
+      "eas": {
+        "projectId": "de48662f-27e9-429d-b0ab-b9846c794271"
+      }
+    }
+  }
+}
