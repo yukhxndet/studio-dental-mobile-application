@@ -48,7 +48,5 @@ This project was developed as part of the Bachelor’s degree final project in I
 - **MongoDB / MySQL** (based on your backend)
 - **Cloud Storage** for media files
 
----
 
-## 📱 Screenshots  
 
