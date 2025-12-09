@@ -51,5 +51,4 @@ This project was developed as part of the Bachelor’s degree final project in I
 ---
 
 ## 📱 Screenshots  
-*(Add screenshots if available)*
 
