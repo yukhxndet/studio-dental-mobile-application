@@ -46,6 +46,6 @@ This project was developed as part of the Bachelor’s degree final project in I
 
 ---
 
-## User Manual  
+## 📖 User Manual  
 https://drive.google.com/file/d/1jjzYqCIo7iUnE0zUvj6OD9Ryr6_A3Gjl/view?usp=sharing
 
