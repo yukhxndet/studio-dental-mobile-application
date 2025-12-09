@@ -26,10 +26,6 @@ This project was developed as part of the Bachelor’s degree final project in I
 - **Notifications**
   - Receive push notifications for queue offers, reminders, and status updates
 
-### Admin / Dentist (if applicable)
-- Dentist schedule display  
-- Slot availability management  
-
 ---
 
 ## 🛠 Technology Stack
