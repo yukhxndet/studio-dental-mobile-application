@@ -8,41 +8,63 @@ This project was developed as part of the Bachelor’s degree final project in I
 
 ## 🚀 Features
 
-### Patient Features
-- **Appointment Booking**
-  - Select available dates & times based on dentist schedules
-  - Real-time status checks for available slots
+### 🗓 Appointment & Queue Management
+- Browse available dates & time slots based on dentist schedules  
+- Real-time slot availability  
+- Cancel and reschedule appointments  
+- Smart Queue Offer — receive notifications when an earlier slot becomes available  
 
-- **Appointment Management**
-  - View upcoming and past appointments
-  - Cancel or reschedule appointments  
-  - Queue offer system when a slot becomes available
+### 👤 User Account & Profile
+- Register and login using email & password (phone login optional)  
+- Update personal information  
+- Change profile picture  
+- Store user session securely with Async Storage  
 
-- **User Profile**
-  - View & edit personal information  
-  - Update profile picture  
-  - Authentication using email & password (or phone number if added)
+### 🔔 Notifications
+- Push notifications for queue offers  
+- Appointment reminders  
+- Status updates (confirmed, cancelled, rescheduled)
 
-- **Notifications**
-  - Receive push notifications for queue offers, reminders, and status updates
+### 📄 Treatment History
+- View past appointments  
+- Treatment details and visit summaries  
 
 ---
 
 ## 🛠 Technology Stack
 
-### Frontend
-- **React Native** (Expo or CLI — specify if needed)
-- **TypeScript / JavaScript**
-- **React Navigation**
-- **Axios** (API communication)
-- **Zustand / Redux / Context API** (choose what you're using)
-- **Firebase** (optional — for notifications or auth)
-- **Date & Calendar Libraries** (e.g., react-native-calendars or custom)
+### **Frontend**
+- **React Native (Expo)**
+- **JavaScript / TypeScript**
+- **React Navigation** (stack, tabs)
+- **Axios**
+- **Async Storage**
+- **NativeWind + TailwindCSS**  
+- **React Native Reanimated**
+- **React Native Vector Icons**
+- **FontAwesome Icons**
+- **React Native Calendars**
+- **React Native Date Picker**
+- **React Native Country Picker Modal**
+- **React Native Phone Number Input**
+- **React Native Toast Message**
+- **react-native-gifted-chat**
+- **date-fns / dayjs**
 
-### Backend (Connected to)
-- **Node.js + Express.js**
-- **MongoDB / MySQL** (based on your backend)
-- **Cloud Storage** for media files
+### **Authentication & Notifications**
+- **React Native Firebase**
+  - Auth
+  - Messaging
+  - Analytics  
+- **Expo Notifications**
+
+### **Media**
+- **Expo Image Picker**
+
+### **Backend Connected To**
+- Node.js + Express.js REST API  
+- MongoDB  
+- Firebase Cloud Messaging (push notifications)
 
 ---
 
